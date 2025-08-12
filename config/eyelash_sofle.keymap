@@ -38,6 +38,20 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        shift+2 {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <39 2>;
+        };
+
+        shift+2-1 {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <60 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
