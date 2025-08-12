@@ -260,3 +260,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+combos:
+- p: [39, 2]
+  k: '"'
+- p: [60, 2]
+  k: '"'
