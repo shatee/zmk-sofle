@@ -53,7 +53,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, s: Sft+-}
-  - Gui+T
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: LANG2, h: layer1}
@@ -84,7 +84,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '&mkp MB4'
+  - +
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - +
   - {t: '-', s: _}
@@ -97,7 +97,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - '&mkp MB5'
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - (
   - {t: '[', s: '{'}
@@ -110,7 +110,7 @@ layers:
   - {t: '1', s: '!'}
   - '2'
   - '3'
-  - RGB SPI
+  - +
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - )
   - {t: ']', s: '}'}
