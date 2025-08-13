@@ -40,14 +40,20 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MM_SHIFT_2";
             #binding-cells = <0>;
-
             // どちらの Shift でも発動（片方だけにしたいなら MOD_LSFT だけ等に）
-
             mods = <(MOD_LSFT|MOD_RSFT)>;
-
             // mods が無いとき → N2、あるとき → DQT
-
             bindings = <&kp N2>, <&kp DQT>;
+        };
+
+        // 通常は "\"、Shift中は "_"（= Shift+Minus）
+        mm_shift_bslh: mm_shift_bslh {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_SHIFT_BSLH";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            // ベースは Backslash、Shift中は Shift+Minus でアンダースコアを送る
+            bindings = <&kp BSLH>, <&kp LS(MINUS)>;
         };
     };
 
