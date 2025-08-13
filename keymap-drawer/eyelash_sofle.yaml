@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: \, s: Sft+-}
   - Gui+T
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
