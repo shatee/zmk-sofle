@@ -36,6 +36,15 @@
     };
 
     behaviors {
+        mm_shift_2: mm_shift_2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_SHIFT_2";
+            #binding-cells = <0>;
+            // どちらの Shift でも発動（片方だけにしたいなら MOD_LSFT だけ等に）
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            // mods が無いとき → N2、あるとき → DQT
+            bindings = <&kp N2>, <&kp DQT>;
+        };
     };
 
     combos {
