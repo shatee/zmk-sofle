@@ -10,8 +10,7 @@ include:
     cmake-args:
       - -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
       - -DCONFIG_ZMK_KSCAN_MATRIX_POLL_PERIOD_US=8000
-      - -DCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
-      - -DCONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
+      - -DCONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=12
     artifact-name: eyelash_sofle_studio_left
   - board: eyelash_sofle_left
     shield: settings_reset
