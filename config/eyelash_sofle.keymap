@@ -99,7 +99,7 @@
 &kp GRAVE      &kp F1     &kp F2        &kp F3        &kp F4        &kp F5       &mmv MOVE_UP     &kp F6                 &kp F7             &kp F8           &kp F9            &kp F10       &kp DELETE
 &trans         &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp PLUS     &mmv MOVE_DOWN   &kp PLUS               &kp MINUS          &kp EQUAL        &kp CARET         &kp PIPE      &kp GRAVE
 &trans         &kp TILDE  &kp NUMBER_4  &kp N5        &kp N6        &kp MINUS    &mmv MOVE_LEFT   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LESS_THAN     &kp PLUS      &kp ASTERISK
-&trans         &kp N0     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PLUS     &mmv MOVE_RIGHT  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE
+&trans         &kp N0     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &mmv MOVE_RIGHT  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE
 &kp LS(LG(T))  &trans     &trans        &trans        &trans        &trans       &mkp LCLK        &trans                 &trans             &trans           &trans            &trans
             >;
 
@@ -109,11 +109,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6    &kp F7         &kp F8       &kp F11    &kp F12    &trans
-&trans         &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp UNDER  &kp PLUS
-&trans         &trans        &trans          &trans        &trans        &trans          &mmv MOVE_LEFT   &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp LBRC   &kp RBRC
-&trans         &trans        &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans    &trans         &trans       &trans     &trans     &trans
-&kp LS(LG(T))  &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans    &trans         &trans       &trans     &trans
+&kp TILDE      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6    &kp F7         &kp F8       &kp F11    &kp F12    &trans
+&trans         &kp GRAVE     &kp N7        &kp N8        &kp N9        &kp PLUS        &mmv MOVE_DOWN   &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp UNDER  &kp PLUS
+&trans         &kp TILDE     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS       &mmv MOVE_LEFT   &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp LBRC   &kp RBRC
+&trans         &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &mmv MOVE_RIGHT  &trans    &trans         &trans       &trans     &trans     &trans
+&kp LS(LG(T))  &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans    &trans         &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
