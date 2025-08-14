@@ -129,7 +129,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE      &kp F1     &kp F2        &kp F3        &kp F4        &kp F5       &mmv MOVE_UP     &kp F6                &kp F7                 &kp F8          &kp F9            &kp F10       &kp DELETE
-&trans         &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp PLUS     &mmv MOVE_DOWN   &kp PLUS              &kp MINUS              &kp EQUAL       &kp CARET         &kp PIPE      &kp GRAVE
+&trans         &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp PLUS     &mmv MOVE_DOWN   &kp DOUBLE_QUOTES     &kp SQT                &kp GRAVE       &kp CARET         &kp TILDE     &kp PIPE
 &trans         &kp TILDE  &kp NUMBER_4  &kp N5        &kp N6        &kp MINUS    &mmv MOVE_LEFT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PLUS      &kp ASTERISK
 &trans         &kp N0     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL    &mmv MOVE_RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE
 &kp LS(LG(T))  &trans     &trans        &trans        &trans        &trans       &mkp LCLK        &trans                &trans                 &trans          &trans            &trans
