@@ -94,6 +94,30 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             bindings = <&kp N9>, <&kp RIGHT_PARENTHESIS>;
         };
+
+        mm_shift_semi: mm_shift_semi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_SHIFT_SEMI";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            bindings = <&kp SEMICOLON>, <&kp PLUS>;
+        };
+
+        mm_shift_coron: mm_shift_coron {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_SHIFT_CORON";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            bindings = <&kp COLON>, <&kp ASTERISK>;
+        };
+
+        mm_shift_at: mm_shift_at {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_SHIFT_AT";
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            bindings = <&kp AT>, <&kp GRAVE>;
+        };
     };
 
     combos {
@@ -115,10 +139,10 @@
 
         layer0 {
             bindings = <
-&kp ESC        &kp N1        &mm_shift_2   &kp N3       &kp N4          &kp N5       &kp UP_ARROW     &mm_shift_6  &mm_shift_7      &mm_shift_8  &mm_shift_9      &kp N0    &kp BACKSPACE
-&kp TAB        &kp Q         &kp W         &kp E        &kp R           &kp T        &kp DOWN_ARROW   &kp Y        &kp U            &kp I        &kp O            &kp P     &kp AT
-&kp LCTRL      &kp A         &kp S         &kp D        &kp F           &kp G        &kp LEFT_ARROW   &kp H        &kp J            &kp K        &kp L            &kp SEMI  &kp COLON
-&kp LSHFT      &kp Z         &kp X         &kp C        &kp V           &kp B        &kp RIGHT_ARROW  &kp N        &kp M            &kp COMMA    &kp DOT          &kp FSLH  &mm_shift_bslh
+&kp ESC        &kp N1        &mm_shift_2   &kp N3       &kp N4          &kp N5       &kp UP_ARROW     &mm_shift_6  &mm_shift_7      &mm_shift_8  &mm_shift_9      &kp N0          &kp BACKSPACE
+&kp TAB        &kp Q         &kp W         &kp E        &kp R           &kp T        &kp DOWN_ARROW   &kp Y        &kp U            &kp I        &kp O            &kp P           &mm_shift_at
+&kp LCTRL      &kp A         &kp S         &kp D        &kp F           &kp G        &kp LEFT_ARROW   &kp H        &kp J            &kp K        &kp L            &mm_shift_semi  &mm_shift_coron
+&kp LSHFT      &kp Z         &kp X         &kp C        &kp V           &kp B        &kp RIGHT_ARROW  &kp N        &kp M            &kp COMMA    &kp DOT          &kp FSLH        &mm_shift_bslh
 &kp LG(SPACE)  &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 LANG2  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER        &kp RET      &kp RIGHT_SHIFT  &lt 2 LANG1  &kp RIGHT_SHIFT  &mo 3
             >;
 
