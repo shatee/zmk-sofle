@@ -68,7 +68,7 @@
             label = "MM_SHIFT_6";
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            bindings = <&kp N2>, <&kp DQT>;
+            bindings = <&kp NUMBER_6>, <&kp AMPERSAND>;
         };
 
         mm_shift_7: mm_shift_7 {
