@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '@'
+  - {t: '@', s: '`'}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -38,8 +38,8 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
-  - ':'
+  - {t: ;, s: +}
+  - {t: ':', s: '*'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
