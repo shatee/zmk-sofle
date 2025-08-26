@@ -146,10 +146,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ^
+  - '~'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
   - PgDn
@@ -160,9 +160,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - '4'
-  - {t: '5', s: '%'}
-  - '6'
-  - {t: '-', s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -173,9 +173,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - '1'
-  - '2'
-  - '3'
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
