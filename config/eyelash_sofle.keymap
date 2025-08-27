@@ -142,7 +142,7 @@
 &kp ESC        &kp N1        &mm_shift_2  &kp N3            &kp N4                &kp N5         &kp UP_ARROW     &mm_shift_6  &mm_shift_7            &mm_shift_8    &mm_shift_9      &kp N0          &kp BACKSPACE
 &kp TAB        &kp Q         &kp W        &kp E             &kp R                 &kp T          &kp DOWN_ARROW   &kp Y        &kp U                  &kp I          &kp O            &kp P           &mm_shift_at
 &kp LCTRL      &kp A         &kp S        &kp D             &kp F                 &kp G          &kp LEFT_ARROW   &kp H        &kp J                  &kp K          &kp L            &mm_shift_semi  &mm_shift_coron
-&kp LSHFT      &kp Z         &kp X        &kp C             &kp V                 &kp B          &kp RIGHT_ARROW  &kp N        &kp M                  &kp COMMA      &kp DOT          &kp FSLH        &mm_shift_bslh
+&kp LEFT_ALT   &kp Z         &kp X        &kp C             &kp V                 &kp B          &kp RIGHT_ARROW  &kp N        &kp M                  &kp COMMA      &kp DOT          &kp FSLH        &mm_shift_bslh
 &kp LG(SPACE)  &kp LEFT_ALT  &none        &kp LEFT_COMMAND  &mt LEFT_SHIFT LANG2  &lt 1 SPACE    &kp ENTER        &lt 2 ENTER  &mt RIGHT_SHIFT LANG1  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mo 3
             >;
 
@@ -166,7 +166,7 @@
         layer_2 {
             bindings = <
 &kp TILDE      &trans     &trans        &trans  &trans     &trans       &mmv MOVE_UP     &kp F6    &kp F7         &kp F8       &kp F11    &kp F12    &trans
-&trans         &kp GRAVE  &none         &none   &kp CARET  &kp TILDE    &mmv MOVE_DOWN   &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp UNDER  &kp PLUS
+&trans         &kp GRAVE  &none         &none   &kp CARET  &kp TILDE    &mmv MOVE_DOWN   &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp MINUS  &kp PLUS
 &trans         &kp TILDE  &kp NUMBER_4  &none   &none      &none        &mmv MOVE_LEFT   &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp LBRC   &kp RBRC
 &trans         &kp N0     &kp NUMBER_1  &none   &none      &none        &mmv MOVE_RIGHT  &trans    &trans         &trans       &trans     &trans     &trans
 &kp LS(LG(T))  &trans     &trans        &trans  &trans     &trans       &mkp LCLK        &trans    &trans         &trans       &trans     &trans
