@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: +}
   - {t: ':', s: '*'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - Z
   - X
   - C
@@ -155,7 +155,7 @@ layers:
   - PgDn
   - PgUp
   - END
-  - _
+  - {t: '-', s: _}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
